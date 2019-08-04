@@ -36,15 +36,19 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 h1 {
 	font-size: 1.875em;
 }
+
 h2 {
     font-size: 1.5em;
 }
+
 h3 {
 	font-size: 1.125em;
 }
+
 h4 {
 	font-size: 0.75em;
 }
@@ -56,6 +60,7 @@ p {
 }
 
 /*The widths are in a percentage!*/
+
 header {
 	width: 100%;
 	height: auto;
@@ -88,18 +93,21 @@ header nav {
 	justify-content: center;
 	align-items: center;
 }
+
 header nav ul {
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+
 header nav ul li {
 	padding: 0 20px;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -122,6 +130,7 @@ header nav ul li a{
   justify-content: center;
   align-items: center;
 }
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -135,10 +144,12 @@ header nav ul li a{
 	height: auto;
 	padding: 20px;
 }
+
 .main-title h3 {
 	width: 100%;
 	color: #77a466;
 }
+
 .main-title p {
 	width: 100%;
 	padding: 0;
@@ -181,6 +192,7 @@ header nav ul li a{
 }
 
 /*The widths are in a percentage!*/
+
 footer {
 	width: 100%;
 	height: auto;
@@ -190,6 +202,7 @@ footer {
 	align-items: center;
 	flex-flow: wrap;
 }
+
 footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
