@@ -209,3 +209,47 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+
+/********** MEDIA QUERIES **********/
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+
+	header nav ul li {
+		display: inline;
+	}
+
+	.bottom-section{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		justify-content:space-between;
+	}
+
+	.section-one{
+		width: 33%;
+		border-top: none;
+	}
+
+ .section-two{
+	 width: 33%;
+	 border-top: none;
+ }
+
+ .section-three{
+	 width: 33%;
+	 border-top: none;
+ }
+
+}
+
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+
+ header nav ul {
+   display: flex;
+   justify-content: space-between;
+ }
+}
